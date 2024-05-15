@@ -1,11 +1,11 @@
 ---
-title: The fifth and hopefully final example penus
+title: The fifth and hopefully final example penuss
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.description will be used
   instead.
-date: 2020-10-15T12:23:39.598Z
+date: 2024-05-15T16:12:00.000Z
 author: Jane Doe
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: Why contemplating our mortality can be a powerful catalyst for changes
 tags:
   - environment
   - sport
