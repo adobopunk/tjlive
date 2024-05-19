@@ -1,6 +1,32 @@
 ---
-layout: layouts/base.njk
+
 section: home
 ---
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
 
-{{ layoutContent | safe }}
+	{% include "components/head.njk" %}
+
+	<body>
+
+		<header>
+			<em>
+				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+			</em>
+			{% include "components/nav.njk" %}
+		</header>
+
+		<main>
+            
+            {# {{ layoutContent | safe }} #}
+
+            {% set postslist = collections.post %}
+            {% include "components/postslist.njk" %}
+
+		</main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>
